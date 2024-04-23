@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="PizzaGui">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="23" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="584" height="691"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <vspacer id="d04e7">
+        <constraints>
+          <grid row="21" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="3630e" class="javax.swing.JCheckBox" binding="box1">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Hawaii"/>
+        </properties>
+      </component>
+      <component id="99ab" class="javax.swing.JCheckBox" binding="box2">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Margarita"/>
+        </properties>
+      </component>
+      <component id="f0791" class="javax.swing.JCheckBox" binding="box3">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="4 Seasons"/>
+        </properties>
+      </component>
+      <component id="9b6a0" class="javax.swing.JCheckBox" binding="box4">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="4 formaggi"/>
+        </properties>
+      </component>
+      <component id="1d959" class="javax.swing.JCheckBox" binding="box5">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="American pizza"/>
+        </properties>
+      </component>
+      <component id="e9236" class="javax.swing.JCheckBox" binding="box6">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Studentu"/>
+        </properties>
+      </component>
+      <component id="fae8c" class="javax.swing.JCheckBox" binding="box7">
+        <constraints>
+          <grid row="17" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Kalifornija"/>
+        </properties>
+      </component>
+      <component id="6a53d" class="javax.swing.JCheckBox" binding="box8">
+        <constraints>
+          <grid row="19" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ferrara"/>
+        </properties>
+      </component>
+      <component id="db29e" class="javax.swing.JButton" binding="infoButton7" custom-create="true" default-binding="true">
+        <constraints>
+          <grid row="19" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="343" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7833748"/>
+          <enabled value="true"/>
+          <foreground color="-16777216"/>
+          <text value="Info"/>
+        </properties>
+      </component>
+      <component id="69146" class="javax.swing.JButton" binding="infoButton6" custom-create="true" default-binding="true">
+        <constraints>
+          <grid row="17" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="343" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7833748"/>
+          <enabled value="true"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <text value="Info"/>
+        </properties>
+      </component>
+      <component id="f04de" class="javax.swing.JButton" binding="infoButton5" custom-create="true" default-binding="true">
+        <constraints>
+          <grid row="15" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="343" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7833748"/>
+          <enabled value="true"/>
+          <foreground color="-16777216"/>
+          <text value="Info"/>
+        </properties>
+      </component>
+      <component id="864d9" class="javax.swing.JButton" binding="infoButton4" custom-create="true" default-binding="true">
+        <constraints>
+          <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="343" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7833748"/>
+          <enabled value="true"/>
+          <foreground color="-16777216"/>
+          <text value="Info"/>
+        </properties>
+      </component>
+      <component id="e08f2" class="javax.swing.JButton" binding="infoButton3" custom-create="true" default-binding="true">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="343" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7833748"/>
+          <enabled value="true"/>
+          <foreground color="-16777216"/>
+          <text value="Info"/>
+        </properties>
+      </component>
+      <component id="6514d" class="javax.swing.JButton" binding="infoButton" custom-create="true" default-binding="true">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="343" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7833748"/>
+          <enabled value="true"/>
+          <foreground color="-16777216"/>
+          <text value="Info"/>
+        </properties>
+      </component>
+      <component id="5992a" class="javax.swing.JButton" binding="infoButton1" custom-create="true">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="343" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7833748"/>
+          <enabled value="true"/>
+          <foreground color="-16777216"/>
+          <text value="Info"/>
+        </properties>
+      </component>
+      <component id="6aa6e" class="javax.swing.JButton" binding="buyButton" custom-create="true">
+        <constraints>
+          <grid row="21" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7833748"/>
+          <enabled value="true"/>
+          <font name="Fira Code"/>
+          <foreground color="-16777216"/>
+          <text value="NOPIRKT"/>
+        </properties>
+      </component>
+      <hspacer id="9a7ce">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="5ae2a">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="bd51" class="javax.swing.JButton" binding="infoButton2" custom-create="true" default-binding="true">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="343" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7833748"/>
+          <enabled value="true"/>
+          <foreground color="-16777216"/>
+          <text value="Info"/>
+        </properties>
+      </component>
+      <component id="25b2e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="48"/>
+          <text value="Picas piegāde"/>
+        </properties>
+      </component>
+      <vspacer id="3c53f">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="bbb24" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="4" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="2fcc1" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="fbadd" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="9d639" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="44384" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="88dae" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="7468d" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="16" column="0" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="78d93" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="18" column="0" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="d05a9" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="20" column="0" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="f8d60" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="4" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="bee3f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="16"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Picas veidi"/>
+        </properties>
+      </component>
+      <vspacer id="32e1e">
+        <constraints>
+          <grid row="22" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
